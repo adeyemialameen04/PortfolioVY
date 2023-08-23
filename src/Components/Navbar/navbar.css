@@ -1,0 +1,48 @@
+.nav {
+    background-color: var(--clr-dark-background);
+}
+
+.nav__container {
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav--links {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.mode-btn {
+    --clr-dark: hsl(0, 0%, 16%);
+    background-color: var(--clr-dark);
+    border: none;
+    height: 45px;
+    width: 45px;
+    color: var(--clr-white);
+    border-radius: 5px;
+    bottom: none;
+    font-size: 1.6rem;
+}
+
+.connect-btn {
+    background-color: var(--clr-white);
+    height: 45px;
+    border-radius: 5px;
+    flex: 1;
+    border: none;
+    transition: var(--transition);
+    width: 120px;
+    gap: .7rem;
+}
+
+.connect-btn:hover {
+    --clr-hover: hsl(214, 32%, 91%);
+    background-color: var(--clr-hover);
+}
