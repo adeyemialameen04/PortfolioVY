@@ -14,7 +14,6 @@ function App() {
     <ThemeContext.Provider value={{ theme, handleToggleTheme }}>
       <div id={theme === "light" ? "light" : "dark"}>
         <Navbar />
-        <h1>Hello</h1>
       </div>
     </ThemeContext.Provider>
   );

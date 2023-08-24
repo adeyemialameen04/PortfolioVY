@@ -1,3 +1,18 @@
+.nav {
+    /* background-color: var(--clr-white); */
+    position: fixed;
+    height: auto;
+    width: 100vw;
+    box-shadow: none;
+    transition: var(--transition);
+}
+
+.nav-shadow {
+    --tw-shadow: hsla(210, 8%, 62%, .2) 0px 8px 24px;
+    --tw-shadow-colored: 0px 8px 24px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .nav__container {
     padding-block: 1rem;
     display: flex;
@@ -61,4 +76,11 @@
 #dark .connect-btn {
     background-color: var(--clr-white);
     color: var(--clr-black);
+}
+
+#dark .nav-shadow {
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: #3a3a3a 0px 0px 0px 2px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
