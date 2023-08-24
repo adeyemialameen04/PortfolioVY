@@ -1,6 +1,11 @@
 .main__container {
     /* background-color: red; */
-    position: relative;
-    top: 14em;
-
+    /* position: relative; */
+    /* top: 14rem; */
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
 }

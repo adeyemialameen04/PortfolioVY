@@ -6,7 +6,22 @@ const Header = () => {
     <header className="header">
       <div className="container header__container">
         <div className="job-title-container">
-          <h1>Frontend Developer</h1>
+          <h1>
+            Frontend{" "}
+            <span>
+              Developer
+              <img
+                className="curved-underline"
+                src="/static/assets/curved-underline.svg"
+                alt=""
+              />
+              <img
+                className="three-lines"
+                src="/static/assets/three-lines.svg"
+                alt=""
+              />
+            </span>
+          </h1>
         </div>
         <p className="bio">
           I’m a front-end developer specializing in the ReactJS ecosystem, with
