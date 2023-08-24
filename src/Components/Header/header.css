@@ -1,0 +1,38 @@
+.header__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+}
+
+.job-title-container {
+    position: relative;
+}
+
+.job-title-container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.bio {
+    color: var(--clr-light-txt-gray);
+    line-height: 1.7;
+}
+
+.cv-btn {
+    background-color: var(--clr-green);
+    padding-block: 1rem;
+    font-weight: 600;
+    gap: .6rem;
+    padding-inline: .9rem;
+    border: none;
+    border-radius: .375rem;
+}
+
+/* DARK THEME */
+#dark .bio {
+    color: var(--clr-dark-txt-gray);
+}
