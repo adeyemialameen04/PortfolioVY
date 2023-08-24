@@ -1,13 +1,11 @@
 .nav {
-    /* position: fixed; */
-    /* height: auto; */
     width: 100vw;
     box-shadow: none;
     transition: var(--transition);
     position: sticky;
     top: 0;
     z-index: 3;
-    /* background-color: transparent; */
+    background-color: var(--clr-light-background);
 }
 
 .nav-shadow {
@@ -38,10 +36,7 @@
 .mode-btn {
     background-color: transparent;
     border: none;
-    /* height: 45px; */
-    /* width: 45px; */
     padding: .5rem;
-    /* color: var(--clr-white); */
     border-radius: .375rem;
     bottom: none;
     font-size: 1.5rem;
@@ -50,7 +45,6 @@
 
 .connect-btn {
     background-color: var(--clr-black);
-    /* height: 45px; */
     padding-block: .5rem;
     border-radius: 5px;
     flex: 1;
@@ -65,7 +59,11 @@
     background-color: var(--clr-blue);
 }
 
-/* THEMES */
+/* DARK THEME */
+#dark .nav {
+    background-color: var(--clr-dark-background);
+}
+
 #dark {
     --clr-dark: hsl(0, 0%, 16%);
     background-color: var(--clr-dark);
