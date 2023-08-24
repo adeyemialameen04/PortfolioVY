@@ -1,8 +1,12 @@
+import { useContext } from "react";
 import "./navbar.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsCloudMoon } from "react-icons/bs";
+import { ThemeContext } from "../../App";
 
 const Navbar = () => {
+  const { theme, handleToggleTheme } = useContext(ThemeContext);
+
   return (
     <nav className="nav">
       <div className="container nav__container">
@@ -12,7 +16,7 @@ const Navbar = () => {
             <AiFillLinkedin />
             Connect
           </button>
-          <button className="mode-btn center-btn ">
+          <button onClick={handleToggleTheme} className="mode-btn center-btn ">
             <BsCloudMoon />
           </button>
         </div>

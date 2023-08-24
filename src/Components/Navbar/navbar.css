@@ -1,7 +1,3 @@
-.nav {
-    background-color: var(--clr-dark-background);
-}
-
 .nav__container {
     padding-block: 1rem;
     display: flex;
@@ -20,29 +16,49 @@
 }
 
 .mode-btn {
-    --clr-dark: hsl(0, 0%, 16%);
-    background-color: var(--clr-dark);
+    background-color: transparent;
     border: none;
-    height: 45px;
-    width: 45px;
-    color: var(--clr-white);
-    border-radius: 5px;
+    /* height: 45px; */
+    /* width: 45px; */
+    padding: .5rem;
+    /* color: var(--clr-white); */
+    border-radius: .375rem;
     bottom: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    border: 2px solid #e5e7eb;
 }
 
 .connect-btn {
-    background-color: var(--clr-white);
-    height: 45px;
+    background-color: var(--clr-black);
+    /* height: 45px; */
+    padding-block: .5rem;
     border-radius: 5px;
     flex: 1;
     border: none;
     transition: var(--transition);
     width: 120px;
     gap: .7rem;
+    color: var(--clr-white);
 }
 
 .connect-btn:hover {
     --clr-hover: hsl(214, 32%, 91%);
     background-color: var(--clr-hover);
+}
+
+/* THEMES */
+#dark {
+    --clr-dark: hsl(0, 0%, 16%);
+    background-color: var(--clr-dark);
+}
+
+#dark .mode-btn {
+    border: none;
+    background-color: hsl(0, 0%, 16%);
+    color: var(--clr-white);
+}
+
+#dark .connect-btn {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
 }
