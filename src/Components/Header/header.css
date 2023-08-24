@@ -1,5 +1,8 @@
 .header {
-    height: 60vh;
+    height: 80vh;
+    padding-top: 5rem;
+    display: grid;
+    place-content: center;
 }
 
 .header__container {
@@ -48,6 +51,14 @@
     padding-inline: .9rem;
     border: none;
     border-radius: .375rem;
+}
+
+.arr-down-container {
+    margin-top: 5rem;
+}
+
+.arr-down-container img {
+    transform: rotateZ(-90deg)
 }
 
 /* DARK THEME */
