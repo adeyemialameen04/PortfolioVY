@@ -1,10 +1,13 @@
 .nav {
-    background-color: var(--clr-blue);
-    position: fixed;
-    height: auto;
+    /* position: fixed; */
+    /* height: auto; */
     width: 100vw;
     box-shadow: none;
     transition: var(--transition);
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    /* background-color: transparent; */
 }
 
 .nav-shadow {

@@ -1,15 +1,33 @@
+.header {
+    height: 60vh;
+}
+
 .header__container {
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: 1rem;
     padding-inline: 1rem;
 }
 
-.job-title-container {
+.job-title-container span {
     position: relative;
+    /* background-color: red; */
+}
+
+.curved-underline {
+    position: absolute;
+    width: 3rem;
+    bottom: -0.5rem;
+    left: 0;
+}
+
+.three-lines {
+    height: 1.3rem;
+    position: absolute;
+    top: -.1rem;
+    right: -1.1rem;
 }
 
 .job-title-container h1 {
