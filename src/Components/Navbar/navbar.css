@@ -21,6 +21,8 @@
 }
 
 .logo {
+    font-size: 1.1rem;
+    font-weight: 500;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -57,8 +59,7 @@
 }
 
 .connect-btn:hover {
-    --clr-hover: hsl(214, 32%, 91%);
-    background-color: var(--clr-hover);
+    background-color: var(--clr-blue);
 }
 
 /* THEMES */
@@ -76,6 +77,11 @@
 #dark .connect-btn {
     background-color: var(--clr-white);
     color: var(--clr-black);
+}
+
+#dark .connect-btn:hover {
+    --clr-hover: hsl(214, 32%, 91%);
+    background-color: var(--clr-hover);
 }
 
 #dark .nav-shadow {

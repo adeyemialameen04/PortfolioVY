@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import "./navbar.css";
 import { AiFillLinkedin } from "react-icons/ai";
-import { BsCloudMoon } from "react-icons/bs";
+import { BsCloudMoon, BsFillSunFill } from "react-icons/bs";
 import { ThemeContext } from "../../App";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
             Connect
           </button>
           <button onClick={handleToggleTheme} className="mode-btn center-btn ">
-            <BsCloudMoon />
+            {theme === "light" ? <BsCloudMoon /> : <BsFillSunFill />}
           </button>
         </div>
       </div>
