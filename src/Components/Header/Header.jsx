@@ -3,6 +3,7 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const Header = () => {
   return (
+    // <>
     <header className="header">
       <div className="container header__container">
         <div className="job-title-container">
@@ -36,8 +37,12 @@ const Header = () => {
           />{" "}
           Download my CV
         </button>
+        <div className="arr-down-container">
+          <img src="/static/assets/arr-down.svg" alt="" />
+        </div>
       </div>
     </header>
+    // </>
   );
 };
 

@@ -1,7 +1,7 @@
 .nav {
     width: 100vw;
     box-shadow: none;
-    transition: var(--transition);
+    transition: background-color box-shadow 250ms ease-in;
     position: sticky;
     top: 0;
     z-index: 3;
