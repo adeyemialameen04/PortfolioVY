@@ -26,7 +26,8 @@
   --clr-dark-background: hsl(0, 0%, 6%);
   --clr-green: hsl(150, 100%, 45%);
   --clr-blue: rgb(96 165 250);
-  --clr-txt-gary: hsl(216, 12%, 84%);
+  --clr-light-txt-gray: rgb(71, 85, 105);
+  --clr-dark-txt-gray: hsl(216, 12%, 84%);
   --clr-dark-card: hsl(0, 0%, 13%);
 
 

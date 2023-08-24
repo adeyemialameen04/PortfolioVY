@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
+import Home from "./Home/Home";
 
 export const ThemeContext = createContext(null);
 
@@ -14,6 +16,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, handleToggleTheme }}>
       <div id={theme === "light" ? "light" : "dark"}>
         <Navbar />
+        <Home />
       </div>
     </ThemeContext.Provider>
   );
