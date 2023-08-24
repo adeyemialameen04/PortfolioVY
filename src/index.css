@@ -84,6 +84,19 @@ svg {
   justify-content: center;
 }
 
+/* THEMES */
+#light {
+  background-color: var(--clr-light-background);
+  min-height: 100vh;
+  color: var(--clr-black);
+}
+
+#dark {
+  background-color: var(--clr-dark-background);
+  min-height: 100vh;
+  color: var(--clr-white);
+}
+
 @media (min-width:780px) {
   .container {
     width: var(--container-md);
