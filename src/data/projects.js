@@ -1,6 +1,5 @@
 export const projects = [
   {
-    id: 1,
     name: "DGram",
     desc: "Simplifying image management. Upload, download, and delete with ease. Organize, store, and access your visuals effortlessly. Your images, your control. Try Dgram now for seamless image handling.",
     tagline: "Save files online",
@@ -10,7 +9,6 @@ export const projects = [
     stacksUsed: ["React", "CSS", "Firebase"],
   },
   {
-    id: 2,
     name: "DoyinFlix",
     desc: "Discover the latest movie buzz on our website! Stay updated with trending and upcoming films, explore our movie database, and watch trailers to get a sneak peek before hitting the theaters.",
     tagline: "Your Cinematic Universe Awaits",
@@ -20,7 +18,6 @@ export const projects = [
     stacksUsed: ["React", "CSS", "API"],
   },
   {
-    id: 3,
     name: "TodoTiger",
     desc: "Simplify your to-do list management. Add todos with titles, content, and deadlines effortlessly!",
     tagline: "Conquer Your Tasks, Unleash Productivity",
@@ -30,7 +27,15 @@ export const projects = [
     stacksUsed: ["React", "CSS", "Firebase"],
   },
   {
-    id: 4,
+    name: "Global Data-Hub",
+    desc: "Global Data-Hub is a React application that provides a user-friendly interface to explore and search for country information. Users can filter countries by region and a search bar to find specific countries by name. The application provides a responsive design and optimizes data fetching by utilizing caching and background refetching techniques. Additionally, it handles error responses gracefully, displaying appropriate messages when a country is not found.",
+    tagline: "Discover the World: Explore Countries with Ease",
+    liveUrl: "https://global-data-hub.vercel.app/",
+    repoUrl: "https://github.com/adeyemialameen04/GlobalDataHub",
+    year: "2022",
+    stacksUsed: ["React","Css","Typescript","Api"],
+  },
+  {
     name: "Shortly",
     desc: "Shortly is the ultimate solution for transforming your lengthy, complex URLs into sleek, manageable links. Say goodbye to sharing cumbersome web addresses. With Shortly, you can effortlessly condense extensive URLs into concise links that are not only easier to share but also save valuable space in your messages, emails, and social media posts.",
     tagline: "Shorten Links, Share Faster",
@@ -40,7 +45,6 @@ export const projects = [
     stacksUsed: ["HTML", "CSS", "JAVASRCIPT", "API"],
   },
   {
-    id: 5,
     name: "Space Tourism",
     desc: "Embark on the ultimate space adventure! Explore space tourism packages, book otherworldly vacations, and experience the cosmos like never before!",
     tagline: "Explore Beyond, Travel the Cosmos",
@@ -50,7 +54,15 @@ export const projects = [
     stacksUsed: ["React", "CSS"],
   },
   {
-    id: 6,
+    name: "CryptoScope",
+    desc: "Explore a comprehensive platform for all things crypto. Stay updated with real-time cryptocurrency data, trends, and prices, while also accessing the latest news articles from the world of cryptocurrencies. Whether you're an investor, enthusiast, or just curious, our website provides you with a one-stop hub to navigate the dynamic landscape of digital currencies and their evolving market.",
+    tagline: "Dive into the CryptoScope: Get real-time cryptocurrency data and the latest news, all in one place.",
+    liveUrl: "https://cryptoscope.vercel.app",
+    repoUrl: "https://github.com/adeyemialameen04/CryptoScope",
+    year: "2023",
+    stacksUsed: ["React", "CSS", "Api"],
+  },
+  {
     name: "Fintekk",
     desc: "It is a clone of the Fintekk landing page, tried to build same, hope you will like it.",
     tagline: "Fintekk Page UI",
@@ -60,7 +72,15 @@ export const projects = [
     stacksUsed: ["React", "CSS"],
   },
   {
-    id: 7,
+    name: "Weatheria",
+    desc: "Experience weather forecasting like never before with Weatheria. Get instant access to accurate weather information, including current conditions and a detailed week-long forecast. Plan your days effectively by staying informed about temperature trends, precipitation chances, wind speeds, and more.",
+    tagline: "Forecasting Your Week, Rain or Shine.",
+    liveUrl: "https://weatheria-kappa.vercel.app",
+    repoUrl: "https://github.com/adeyemialameen04/Weatheria",
+    year: "2022",
+    stacksUsed: ["React", "CSS", "Api"],
+  },
+  {
     name: "Visual Roam",
     desc: "Immerse Yourself in a World of Visuals. VisualRoam utilizes the Pexels API to curate and showcase a stunning array of images. From breathtaking landscapes to captivating portraits, explore a diverse collection that sparks inspiration. PexelVisions makes discovering high-quality photos seamless and enjoyable. Embark on a visual journey today.",
     tagline: "Immerse in Captivating Visuals",
@@ -70,7 +90,6 @@ export const projects = [
     stacksUsed: ["React", "CSS", "Api"],
   },
   {
-    id: 8,
     name: "Tip calculator",
     desc: "Your Ultimate Tip Calculator Companion. Easily calculate tips and split bills with precision. Whether it's dining out, grabbing coffee, or sharing expenses with friends, TipWise ensures fairness and simplicity. Experience accurate tip calculations and seamless bill splitting. Make tipping a breeze with TipWise today.",
     tagline: "Tip Smarter, Pay Happier",
@@ -80,7 +99,6 @@ export const projects = [
     stacksUsed: ["HTML", "CSS", "JAVASRCIPT"],
   },
   {
-    id: 9,
     name: "Advice Generator",
     desc: "Your Infinite Wisdom Source. Tap into a wealth of insightful advice for every situation. From life's dilemmas to professional crossroads, AdviceGenie offers personalized guidance at your fingertips. Empower your decisions with diverse perspectives and thoughtful suggestions. Unlock a world of guidance with AdviceGenie today.",
     tagline: "Guidance for Life's Journey",

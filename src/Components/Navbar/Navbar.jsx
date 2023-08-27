@@ -21,10 +21,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    console.log("isScrolled", isScrolled);
-  }, [isScrolled]);
-
   return (
     <nav className={`nav ${isScrolled && "nav-shadow"}`}>
       <div className="container nav__container">
