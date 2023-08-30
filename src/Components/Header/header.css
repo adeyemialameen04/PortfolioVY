@@ -22,7 +22,7 @@
 .curved-underline {
     position: absolute;
     width: 3rem;
-    bottom: -0.5rem;
+    bottom: -0.2rem;
     left: 0;
 }
 
@@ -58,7 +58,19 @@
 }
 
 .arr-down-container img {
-    transform: rotateZ(-90deg)
+    transform: rotateZ(-90deg);
+    animation: animate 2s linear 200ms infinite;
+    transition: all 300ms ease-in-out;
+}
+
+@keyframes animate {
+    from {
+        opacity: .1;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 /* DARK THEME */

@@ -8,6 +8,7 @@
     --tw-shadow-colored: 0px 8px 24px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     border-radius: .375rem;
+    /* height: max-content; */
 }
 
 .top {
@@ -94,6 +95,14 @@
     }
 
     .project:nth-child(7) {
+        grid-column: span 2;
+    }
+
+    .project:nth-child(10) {
+        grid-column: span 2;
+    }
+
+    .project:nth-child(13) {
         grid-column: span 2;
     }
 }

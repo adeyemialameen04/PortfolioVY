@@ -5,7 +5,7 @@ const Header = () => {
   return (
     // <>
     <header className="header">
-      <div className="container header__container">
+      <a className="container header__container">
         <div className="job-title-container">
           <h1>
             Frontend{" "}
@@ -40,7 +40,7 @@ const Header = () => {
         <div className="arr-down-container">
           <img src="/static/assets/arr-down.svg" alt="" />
         </div>
-      </div>
+      </a>
     </header>
     // </>
   );

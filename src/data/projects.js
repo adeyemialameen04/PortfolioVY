@@ -81,6 +81,15 @@ export const projects = [
     stacksUsed: ["React", "CSS", "Api"],
   },
   {
+    name: "GlobalData-Hub",
+    desc: "GlobeGist is a dynamic news app that delivers real-time news from a range of categories worldwide. Built using Next.js and powered by the Bing News Search API, GlobeGist offers a modern interface, enabling users to explore news effortlessly. Seamlessly switch between categories like Business, Entertainment, Health, and more, all with the click of a button. Stay informed and engaged with the latest updates in a user-friendly and interactive way",
+    tagline: "Your Instant News Companion",
+    liveUrl: "https://globe-gist.vercel.app",
+    repoUrl: "https://github.com/adeyemialameen04/GlobeGist",
+    year: "2022",
+    stacksUsed: ["Nextjs", "CSS", "Typescript", "Api"],
+  },
+  {
     name: "Visual Roam",
     desc: "Immerse Yourself in a World of Visuals. VisualRoam utilizes the Pexels API to curate and showcase a stunning array of images. From breathtaking landscapes to captivating portraits, explore a diverse collection that sparks inspiration. PexelVisions makes discovering high-quality photos seamless and enjoyable. Embark on a visual journey today.",
     tagline: "Immerse in Captivating Visuals",
