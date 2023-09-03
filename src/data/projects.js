@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Arcanix",
+    desc: "Discover a world of endless entertainment and gaming excitement at our website. Immerse yourself in the latest gaming news, explore detailed game reviews, and stay up-to-date with upcoming releases. Whether you're a seasoned gamer or just starting your journey, our platform is your ultimate destination for all things gaming. Join our community, connect with fellow gamers, and level up your gaming experience today",
+    tagline: "Your hub for gaming news, reviews, and community.",
+    liveUrl: "https://arcanix.vercel.app/",
+    repoUrl: "https://github.com/adeyemialameen04/Arcanix",
+    year: "2023",
+    stacksUsed: ["Nextjs", "CSS", "Api", "Typescript"],
+  },
+  {
     name: "DGram",
     desc: "Simplifying image management. Upload, download, and delete with ease. Organize, store, and access your visuals effortlessly. Your images, your control. Try Dgram now for seamless image handling.",
     tagline: "Save files online",
@@ -33,7 +42,7 @@ export const projects = [
     liveUrl: "https://global-data-hub.vercel.app/",
     repoUrl: "https://github.com/adeyemialameen04/GlobalDataHub",
     year: "2022",
-    stacksUsed: ["React","Css","Typescript","Api"],
+    stacksUsed: ["React", "Css", "Typescript", "Api"],
   },
   {
     name: "Shortly",
@@ -56,7 +65,8 @@ export const projects = [
   {
     name: "CryptoScope",
     desc: "Explore a comprehensive platform for all things crypto. Stay updated with real-time cryptocurrency data, trends, and prices, while also accessing the latest news articles from the world of cryptocurrencies. Whether you're an investor, enthusiast, or just curious, our website provides you with a one-stop hub to navigate the dynamic landscape of digital currencies and their evolving market.",
-    tagline: "Dive into the CryptoScope: Get real-time cryptocurrency data and the latest news, all in one place.",
+    tagline:
+      "Dive into the CryptoScope: Get real-time cryptocurrency data and the latest news, all in one place.",
     liveUrl: "https://cryptoscope.vercel.app",
     repoUrl: "https://github.com/adeyemialameen04/CryptoScope",
     year: "2023",
@@ -106,6 +116,15 @@ export const projects = [
     repoUrl: "https://github.com/adeyemialameen04/Tip-Calculator",
     year: "2022",
     stacksUsed: ["HTML", "CSS", "JAVASRCIPT"],
+  },
+  {
+    name: "PassLockWizard",
+    desc: "PassLockWizard is your go-to password generator tool for creating strong and secure passwords tailored to your preferences. Easily customize password length and character sets, including uppercase letters, lowercase letters, numbers, and symbols. Say goodbye to weak passwords and enhance your online security effortlessly with PassLockWizard.",
+    tagline: "Unlocking Stronger Passwords, One Click at a Time!",
+    liveUrl: "https://pass-lock-wizard.vercel.app",
+    repoUrl: "https://github.com/adeyemialameen04/PassLockWizard.",
+    year: "2022",
+    stacksUsed: ["HTML", "CSS", "JAVASRCIPT", "API"],
   },
   {
     name: "Advice Generator",
