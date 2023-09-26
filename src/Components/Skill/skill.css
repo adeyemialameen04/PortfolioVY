@@ -1,0 +1,19 @@
+.skill {
+    color: rgb(107 114 128);
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 3rem;
+    gap: 1rem;
+    border-radius: .375rem;
+}
+
+.skill p {
+    font-weight: 600;
+}
+
+.icon {
+    font-size: 2.8rem;
+}
