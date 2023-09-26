@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import Header from "./Components/Header/Header";
 import Home from "./Home/Home";
+import Footer from "./Components/Footer/Footer";
 
 export const ThemeContext = createContext(null);
 
@@ -17,6 +17,7 @@ function App() {
       <div id={theme === "light" ? "light" : "dark"}>
         <Navbar />
         <Home />
+        <Footer />
       </div>
     </ThemeContext.Provider>
   );

@@ -7,8 +7,7 @@ const About = () => {
         <div className="profile-img-container">
           <img
             className="profile-img"
-            // src="/static/assets/dummy-img.jpg"
-            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            src="/static/assets/profile-img.jpeg"
             alt=""
           />
           <img

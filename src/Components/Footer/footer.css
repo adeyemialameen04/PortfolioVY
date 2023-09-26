@@ -1,0 +1,23 @@
+.footer {
+    padding-block: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.footer__container p {
+    font-size: 0.9rem;
+}
+
+.footer__container a {
+    font-size: 1.2rem;
+    color: var(--clr-purple);
+    cursor: pointer;
+    font-weight: 400;
+}
