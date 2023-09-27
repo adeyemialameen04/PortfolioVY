@@ -26,12 +26,10 @@ const About = () => {
             projects to life, you've come to the right place!
           </p>
           <p>
-            When I'm not coding away, you can find me throwing punches and kicks
-            in the boxing ring or practicing martial arts. I believe that
-            physical fitness and mental focus are key to staying sharp and
-            focused in all aspects of life, including programming. So, whether
-            you need help with your next web project or just want to chat about
-            web development or martial arts, don't hesitate to get in touch!
+            When I'm not coding away, you can find me still in my house watching
+            animes 😁😁. So, whether you need help with your next web project or
+            just want to chat about web development or animes, don't hesitate to
+            get in touch!
           </p>
         </div>
       </div>

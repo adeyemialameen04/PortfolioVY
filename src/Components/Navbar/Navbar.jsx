@@ -26,10 +26,14 @@ const Navbar = () => {
       <div className="container nav__container">
         <div className="logo">Al ameen</div>
         <div className="nav--links">
-          <button className="center-btn connect-btn">
+          <a
+            href="https://www.linkedin.com/in/al-ameen-adeyemi-80266a278"
+            target="_blank"
+            className="center-btn connect-btn"
+          >
             <AiFillLinkedin />
             Connect
-          </button>
+          </a>
           <button onClick={handleToggleTheme} className="mode-btn center-btn ">
             {theme === "light" ? <BsCloudMoon /> : <BsFillSunFill />}
           </button>

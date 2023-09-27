@@ -92,12 +92,21 @@ svg {
   background-color: var(--clr-light-background);
   min-height: 100vh;
   color: var(--clr-black);
+  --box-shadow: rgba(0, 0, 0, .05) 0px 0px 0px 1px;
 }
 
 #dark {
   background-color: var(--clr-dark-background);
   min-height: 100vh;
   color: var(--clr-white);
+  --box-shadow: rgba(140, 140, 151, 0.329) 0px 0px 0px 1px;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 @media (min-width:780px) {

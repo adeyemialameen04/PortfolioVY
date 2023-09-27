@@ -6,6 +6,9 @@ import "./skills.css";
 const Skills = () => {
   return (
     <section>
+      <div className="container">
+        <h5 className="section-header">Skills</h5>
+      </div>
       <div className="container skills__container">
         {skills.map((skill) => (
           <Skill skill={skill} />

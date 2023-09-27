@@ -29,14 +29,18 @@ const Header = () => {
           a keen eye for detail and a passion for creating intuitive and
           efficient user interfaces.
         </p>
-        <button className="center-btn cv-btn">
+        <a
+          href="/static/assets/Frontend developer Resume.pdf"
+          download
+          className="center-btn cv-btn"
+        >
           <AiOutlineCloudDownload
             style={{
               fontSize: "1.3rem",
             }}
           />{" "}
           Download my CV
-        </button>
+        </a>
         <div className="arr-down-container">
           <img src="/static/assets/arr-down.svg" alt="" />
         </div>

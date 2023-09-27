@@ -135,4 +135,13 @@ export const projects = [
     year: "2022",
     stacksUsed: ["HTML", "CSS", "JAVASRCIPT", "API"],
   },
+  {
+    name: "MovieBox",
+    desc: "Discover the latest movie buzz on our website! Stay updated with trending and upcoming films, explore our movie database, and watch trailers to get a sneak peek before hitting the theaters.",
+    tagline: "Your hub for gaming news, reviews, and community.",
+    liveUrl: "https://movie-box-pink.vercel.app/",
+    repoUrl: "https://github.com/adeyemialameen04/MovieBox",
+    year: "2022",
+    stacksUsed: ["Nextjs", "CSS", "Typescript", "API"],
+  },
 ];

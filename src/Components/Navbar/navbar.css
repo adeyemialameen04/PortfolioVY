@@ -52,6 +52,7 @@
     transition: var(--transition);
     width: 120px;
     gap: .7rem;
+    text-decoration: none;
     color: var(--clr-white);
 }
 

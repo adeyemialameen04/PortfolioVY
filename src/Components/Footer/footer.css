@@ -1,5 +1,5 @@
 .footer {
-    padding-block: 1rem;
+    padding-block: 2rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .footer__container p {
@@ -17,7 +17,20 @@
 
 .footer__container a {
     font-size: 1.2rem;
-    color: var(--clr-purple);
+    color: var(--clr-blue);
     cursor: pointer;
-    font-weight: 400;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.socials {
+    color: var(--clr-blue);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.socials a {
+    font-size: 1.5rem;
 }

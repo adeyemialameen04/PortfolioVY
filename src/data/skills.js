@@ -20,11 +20,11 @@ export const skills = [
     Icon: SiTypescript,
   },
   {
-    name: "React",
+    name: "Reactjs",
     Icon: SiReact,
   },
   {
-    name: "Next",
+    name: "Nextjs",
     Icon: SiNextdotjs,
   },
   {

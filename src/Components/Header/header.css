@@ -50,6 +50,8 @@
     gap: .6rem;
     padding-inline: .9rem;
     border: none;
+    color: var(--clr-white);
+    text-decoration: none;
     border-radius: .375rem;
 }
 
