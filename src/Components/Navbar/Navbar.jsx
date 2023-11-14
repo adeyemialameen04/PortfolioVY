@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="logo">Al ameen</div>
         <div className="nav--links">
           <a
-            href="https://www.linkedin.com/in/al-ameen-adeyemi-80266a278"
+            href="https://www.linkedin.com/in/al-ameen-adeyemi"
             target="_blank"
             className="center-btn connect-btn"
           >
